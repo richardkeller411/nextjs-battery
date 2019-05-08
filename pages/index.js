@@ -1,7 +1,7 @@
 import Head from "next/head";
-import "../scss/style.scss";
+import "../scss/color1.scss";
 import Navbar from "../components/Navbar";
-
+import Footer from "../components/Footer";
 const Index = () => (
   <section className="page-section">
     <Head>
@@ -11,11 +11,7 @@ const Index = () => (
     <h1>Hello World from Next JS</h1>
     <div className="container mx-auto">
       <p>
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et
-          eos sit vero ab laborum nulla culpa, quis neque ex, voluptatum,
-          eveniet amet autem obcaecati animi ratione quo officiis at!
-        </span>
+        <span>YES NODEMON WORKING</span>
         <span>
           Voluptas obcaecati et adipisci quasi omnis dolores odio eos hic modi
           voluptatum ratione ullam sequi aspernatur ducimus exercitationem
@@ -30,6 +26,7 @@ const Index = () => (
         </span>
       </p>
     </div>
+    <Footer />
   </section>
 );
 

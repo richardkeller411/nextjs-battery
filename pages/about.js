@@ -7,12 +7,7 @@ const About = () => (
         sit vero ab laborum nulla culpa, quis neque ex, voluptatum, eveniet amet
         autem obcaecati animi ratione quo officiis at!
       </span>
-      <span>
-        Voluptas obcaecati et adipisci quasi omnis dolores odio eos hic modi
-        voluptatum ratione ullam sequi aspernatur ducimus exercitationem
-        possimus, sint rem officiis esse recusandae, eveniet laborum repellat.
-        Ipsum, culpa reprehenderit.
-      </span>
+      <span>TEST2</span>
       <span>
         Facilis deleniti dolore neque excepturi hic, tempora dolores repellat
         ipsum quis nihil! Dolor sapiente asperiores laborum aperiam

@@ -18,9 +18,11 @@ module.exports = {
       {
         test: /\.s(a|c)ss$/,
         use: [
+          "style-loader",
           "babel-loader",
           "raw-loader",
           "postcss-loader",
+
           {
             loader: "sass-loader",
             options: {
