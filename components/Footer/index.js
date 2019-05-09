@@ -89,7 +89,9 @@ class Footer extends Component {
                     <Link
                       href={`${process.env.PUBLIC_URL}/left-sidebar/collection`}
                     >
-                      <img src="/static/assets/images/icon/logo.jpg" alt="" />
+                      <a>
+                        <img src="/static/assets/images/icon/logo.jpg" alt="" />
+                      </a>
                     </Link>
                   </div>
                   <p>
@@ -102,22 +104,22 @@ class Footer extends Component {
                     <ul>
                       <li>
                         <Link href={'https://www.facebook.com/1800battery"'}>
-                          <i className="fa fa-facebook" aria-hidden="true" />
+                          <a className="fa fa-facebook" aria-hidden="true" />
                         </Link>
                       </li>
                       <li>
                         <Link href={"https://twitter.com/1800battery"}>
-                          <i className="fa fa-twitter" aria-hidden="true" />
+                          <a className="fa fa-twitter" aria-hidden="true" />
                         </Link>
                       </li>
                       <li>
                         <Link href={"https://instagram.com/1800battery"}>
-                          <i className="fa fa-instagram" aria-hidden="true" />
+                          <a className="fa fa-instagram" aria-hidden="true" />
                         </Link>
                       </li>
                       <li>
                         <Link href={"https://youtube.com/channel/1800battery"}>
-                          <i
+                          <a
                             className="fa fa-youtube-play"
                             aria-hidden="true"
                           />
@@ -136,19 +138,19 @@ class Footer extends Component {
                     <ul>
                       <li>
                         <Link href={`${process.env.PUBLIC_URL}/login`}>
-                          Login
+                          <a>Login</a>
                         </Link>
                       </li>
                       <li>
                         <Link href={`${process.env.PUBLIC_URL}/register`}>
-                          Register
+                          <a>Register</a>
                         </Link>
                       </li>
                       <li>
                         <Link
                           href={`${process.env.PUBLIC_URL}/pages/dashboard`}
                         >
-                          My Orders
+                          <a>My Orders</a>
                         </Link>
                       </li>
                       <li>
@@ -157,7 +159,7 @@ class Footer extends Component {
                             process.env.PUBLIC_URL
                           }/pages/forget-password`}
                         >
-                          Forgot Password
+                          <a>Forgot Password</a>
                         </Link>
                       </li>
                     </ul>
@@ -198,19 +200,19 @@ class Footer extends Component {
                   <div className="footer-contant">
                     <ul className="contact-list">
                       <li>
-                        <i className="fa fa-map-marker" />
+                        <a className="fa fa-map-marker" />
                         3857 Birch St. Newport Beach, CA 92660
                       </li>
                       <li>
-                        <i className="fa fa-phone" />
+                        <a className="fa fa-phone" />
                         Call Us: (800)228-8379
                       </li>
                       <li>
-                        <i className="fa fa-envelope" />
+                        <a className="fa fa-envelope" />
                         Email Us: <a href="mailto:${info@1800battery.com`}" />
                       </li>
                       <li>
-                        <i className="fa fa-fax" />
+                        <a className="fa fa-fax" />
                         Fax: (800)228-8379
                       </li>
                     </ul>
@@ -226,7 +228,7 @@ class Footer extends Component {
               <div className="col-xl-6 col-md-6 col-sm-12">
                 <div className="footer-end">
                   <p>
-                    <i className="fa fa-copyright" aria-hidden="true" />
+                    <a className="fa fa-copyright" aria-hidden="true" />
                     Copyright &copy; {date.getFullYear()} 1-800-Battery Inc All
                     Rights Reserved.
                   </p>
@@ -284,7 +286,7 @@ class Footer extends Component {
           style={tap_to_top}
         >
           <div>
-            <i className="fa fa-angle-double-up" />
+            <a className="fa fa-angle-double-up" />
           </div>
         </div>
       </footer>

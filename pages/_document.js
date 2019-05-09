@@ -4,10 +4,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <html>
-        <Head>
-          <title>Next JS Awesome Kit</title>
-          <link rel="stylesheet" href="/_next/static/style.css" />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
