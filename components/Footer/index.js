@@ -89,7 +89,8 @@ class Footer extends Component {
                     <Link
                       href={`${process.env.PUBLIC_URL}/left-sidebar/collection`}
                     >
-                      <img src="/static/assets/images/icon/logo.jpg" alt="" />
+                      <a>
+                          <img src="/static/assets/images/icon/logo.jpg" alt="" /></a>
                     </Link>
                   </div>
                   <p>
@@ -101,26 +102,26 @@ class Footer extends Component {
                   <div className="footer-social">
                     <ul>
                       <li>
-                        <Link href={'https://www.facebook.com/1800battery"'}>
-                          <i className="fa fa-facebook" aria-hidden="true" />
+                        <Link href={'https://www.facebook.com/1800battery"'}><a>
+                            <i className="fa fa-facebook" aria-hidden="true" /></a>
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://twitter.com/1800battery"}>
-                          <i className="fa fa-twitter" aria-hidden="true" />
+                        <Link href={"https://twitter.com/1800battery"}><a>
+                            <i className="fa fa-twitter" aria-hidden="true" /></a>
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://instagram.com/1800battery"}>
-                          <i className="fa fa-instagram" aria-hidden="true" />
+                        <Link href={"https://instagram.com/1800battery"}><a>
+                            <i className="fa fa-instagram" aria-hidden="true" /></a>
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://youtube.com/channel/1800battery"}>
+                        <Link href={"https://youtube.com/channel/1800battery"}><a>
                           <i
                             className="fa fa-youtube-play"
                             aria-hidden="true"
-                          />
+                          /></a>
                         </Link>
                       </li>
                     </ul>
@@ -136,19 +137,19 @@ class Footer extends Component {
                     <ul>
                       <li>
                         <Link href={`${process.env.PUBLIC_URL}/login`}>
-                          Login
+                            <a>Login</a>
                         </Link>
                       </li>
                       <li>
                         <Link href={`${process.env.PUBLIC_URL}/register`}>
-                          Register
+                          <a>Register</a>
                         </Link>
                       </li>
                       <li>
                         <Link
                           href={`${process.env.PUBLIC_URL}/pages/dashboard`}
                         >
-                          My Orders
+                            <a>My Orders</a>
                         </Link>
                       </li>
                       <li>
@@ -157,7 +158,7 @@ class Footer extends Component {
                             process.env.PUBLIC_URL
                           }/pages/forget-password`}
                         >
-                          Forgot Password
+                            Forgot Password
                         </Link>
                       </li>
                     </ul>

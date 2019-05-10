@@ -1,17 +1,37 @@
 import Head from "next/head";
 import "../scss/color1.scss";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Link from "next/link";
+
+
+
 const Index = () => (
-  <section className="page-section">
+  <div className="page-section">
     <Head>
       <title>Hello World</title>
     </Head>
-    <Navbar />
-    <h1>Hello World from Next JS</h1>
-    <div className="container mx-auto">
+    <Header />
+    <div className="slide-1 home-slider">
+      <div className="home home-png1 text-center">
+          <div className="container">
+              <div className="row">
+                  <div className="col">
+                      <div className="slider-contain">
+                          <div>
+                              <h4>welcome to 1800-Batter</h4>
+                              <h1>YES NODEMON WORKING</h1>
+                              <Link href="/" ><a className="btn btn-solid">shop now</a></Link>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div className="container">
+        <h2>YES NODEMON WORKING</h2>
       <p>
-        <span>YES NODEMON WORKING</span>
         <span>
           Voluptas obcaecati et adipisci quasi omnis dolores odio eos hic modi
           voluptatum ratione ullam sequi aspernatur ducimus exercitationem
@@ -27,7 +47,7 @@ const Index = () => (
       </p>
     </div>
     <Footer />
-  </section>
+  </div>
 );
 
 export default Index;
